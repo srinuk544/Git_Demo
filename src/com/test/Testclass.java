@@ -14,7 +14,7 @@ public class Testclass extends Thread {
 				System.out.println("even numbers from run method:" + i);
 
 			}
-
+System.out.println("Child run method");
 		}
 	}
 
@@ -30,5 +30,6 @@ public class Testclass extends Thread {
 			}
 
 		}
+		System.out.println("Main  method");
 	}
 }
